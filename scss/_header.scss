@@ -1,0 +1,31 @@
+header {
+    background-color: $colorheader;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+
+
+    .logo {
+        display: flex;
+        align-items: center;
+    }
+
+    img{
+        height: 90px;
+    }
+  li {
+    display: inline-block;
+
+    a{
+        color: black;
+        text-decoration: none;
+        padding: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+  }
+
+
+
+}
